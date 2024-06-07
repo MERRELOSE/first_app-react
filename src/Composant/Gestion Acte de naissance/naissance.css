@@ -1,0 +1,176 @@
+/* Couleurs */
+:root {
+    --gris: #797979;
+    --gris-clair: #eaeaea;
+    --bleu: dodgerblue;
+}
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--gris);
+    background-color: var(--gris-clair);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bleu);
+    padding: 10px 20px;
+    color: white;
+    font-size: 25px;
+}
+
+header .logo img {
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.container{
+    margin: "auto";
+    margin-top: "200px";
+    padding-bottom: "30px";
+
+}
+/* Form Styles */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.text{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline{
+    width: 151px;
+    height: 6px;
+    background-color: dodgerblue;
+    border-radius: 9px;
+
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    height: 1300px;
+    background-color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid var(--gris);
+    background-color: #eaeaea;
+    border-radius: 6px;
+    align-items: center;
+    margin: auto;
+
+}
+
+button {
+    background-color: var(--bleu);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(13, 70, 192);
+}
+
+/* Main */
+main {
+    padding: 20px;
+    background-image: url(./images/naissancee.jpg);
+    background-repeat: no-repeat; /* Pour empêcher la répétition de l'image */
+    background-size: cover; /* Pour couvrir tout le background */
+    background-position: center; /* Pour centrer l'image */
+}
+
+.presentation {
+    margin-bottom: 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid var(--gris);
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--bleu);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 25px;
+}
