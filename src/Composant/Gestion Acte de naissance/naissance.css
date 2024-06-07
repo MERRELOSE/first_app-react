@@ -126,7 +126,7 @@ button:hover {
 /* Main */
 main {
     padding: 20px;
-    background-image: url(./images/naissancee.jpg);
+    background-image: url(../Assets/naissancee.jpg);
     background-repeat: no-repeat; /* Pour empêcher la répétition de l'image */
     background-size: cover; /* Pour couvrir tout le background */
     background-position: center; /* Pour centrer l'image */
