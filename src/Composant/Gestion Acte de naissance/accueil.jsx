@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './accueil.css';
 import Logo from '../Assets/logo.png'
 import Naissance from '../Assets/naissance.jpg'
@@ -15,10 +16,10 @@ const Accueil = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="accueil.html">Accueil</a></li>
-                        <li><a href="naissance.html">Naissance</a></li>
-                        <li><a href="#">Mariage</a></li>
-                        <li><a href="#">Terrain</a></li>
+                        <li><Link to="accueil.html">Accueil</Link></li>
+                        <li><Link to="naissance.html">Naissance</Link></li>
+                        <li><Link to="#">Mariage</Link></li>
+                        <li><Link to="#">Terrain</Link></li>
                     </ul>
                 </nav>
             </header>

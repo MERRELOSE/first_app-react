@@ -82,3 +82,6 @@
     font-weight: 700px;
     cursor: pointer;
 }
+.buttonSubmit{
+    border: none;
+}
