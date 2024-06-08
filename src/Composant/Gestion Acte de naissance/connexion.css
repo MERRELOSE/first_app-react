@@ -67,10 +67,10 @@
 .submit_container{
     display: flex;
     gap: 30px;
-    margin: 40px auto;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    
+    margin: 40px;
+
 }
 .submit{
     display: flex;
@@ -85,6 +85,14 @@
     font-weight: 700px;
     cursor: pointer;
 }
+
 .buttonSubmit{
-    border: none;
-}
+    background-color: #3c009d;
+    color: white;
+    width: 220px;
+    height: 59px;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700px;
+    cursor: pointer;
+    }

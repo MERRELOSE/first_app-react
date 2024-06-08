@@ -16,8 +16,8 @@ const Accueil = () => {
                 </div>
                 <nav>
                     <ul>
-                        <li><Link to="accueil.html">Accueil</Link></li>
-                        <li><Link to="naissance.html">Naissance</Link></li>
+                        <li><Link to="/accueil">Accueil</Link></li>
+                        <li><Link to="/naissance">Naissance</Link></li>
                         <li><Link to="#">Mariage</Link></li>
                         <li><Link to="#">Terrain</Link></li>
                     </ul>

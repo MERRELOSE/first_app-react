@@ -36,8 +36,10 @@ const Connexion = () => {
 
                 <div className="forgot-password">Mot de passe oublié? <span>Clique ici !</span></div>
 
-                <div type="submit" className="submit_container">
-                    <div className="submit">Se connecter</div>
+                <div className="submit_container">
+                    <div className="submit">
+                        <button type="submit" to="./accueil.jsx" className="buttonSubmit">Se connecter</button>
+                    </div>
                     <div className="submit">S'inscrire</div>
                 </div>
             </form>
