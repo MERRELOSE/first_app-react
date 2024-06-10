@@ -1,13 +1,13 @@
 import React from 'react' ;
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import './connexion.css';
 
 const Connexion = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        history.push('/accueil');
+        navigate('/accueil');
     };
     return(
         <div className="container" style={{ backgroundColor: 'white', width: '600px', display: 'flex', flexDirection: 'column', margin: 'auto', marginTop: '200px', paddingBottom: '30px' }}>
